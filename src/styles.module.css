@@ -1,0 +1,21 @@
+.mainwrapper {
+    padding: 50px;
+}
+
+.headertitle {
+    font-size: 60px;
+}
+
+.todolistwrapper {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skeletor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
